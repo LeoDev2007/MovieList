@@ -1,0 +1,9 @@
+<div class="movies">
+  <div class="movieContainer">
+    <div class="title"><h2>Lista de 5 Filmes</h2></div>
+
+    <div class="movie-list">
+      <app-cards *ngFor="let movie of movies" [movie]="movie"></app-cards>
+    </div>
+  </div>
+</div>

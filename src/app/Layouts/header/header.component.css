@@ -1,0 +1,33 @@
+header{
+    width: 100%;
+    height: 100%;
+    background-color: #474444;
+    padding: 20px;
+}
+
+.menuContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuContainer ul{
+    display: flex;
+    padding: 10px;
+}
+
+.menuContainer ul li{
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.menuContainer ul li a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #FFF;
+    transition: .4s;
+}
+
+.menuContainer ul li a:hover{
+    border-bottom: 1px solid #d9e828 ;
+}

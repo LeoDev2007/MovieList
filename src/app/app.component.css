@@ -1,0 +1,11 @@
+.appContainer{
+    height: 87vh;
+}
+
+
+@media (max-width: 1367px){
+    .appContainer{
+        height: auto;
+    }
+}
+
